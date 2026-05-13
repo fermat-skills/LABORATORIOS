@@ -1,0 +1,50 @@
+[
+  {
+    "id": "12fw342ej1",
+    "name": {
+      "familyName": "Muro",
+      "givenName": "Rupert"
+    },
+    "age": 67
+  },
+  {
+    "id": "98ab12cd34",
+    "name": {
+      "familyName": "García",
+      "givenName": "Lucía"
+    },
+    "age": 34
+  },
+  {
+    "id": "56gh78ij90",
+    "name": {
+      "familyName": "Pérez",
+      "givenName": "Andrés"
+    },
+    "age": 45
+  },
+  {
+    "id": "ab12cd34ef",
+    "name": {
+      "familyName": "López",
+      "givenName": "María"
+    },
+    "age": 29
+  },
+  {
+    "id": "cd34ef56gh",
+    "name": {
+      "familyName": "Ramírez",
+      "givenName": "Jorge"
+    },
+    "age": 53
+  },
+  {
+    "id": "5bd75841-abae-4716-b670-865357d9a1d2",
+    "name": {
+      "familyName": "Muro",
+      "givenName": "Rupert"
+    },
+    "age": 67
+  }
+]

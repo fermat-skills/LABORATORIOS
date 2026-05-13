@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env/
+.DS_Store
+*.sqlite3
+*.log
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.vscode/
+.idea/
+.ipynb_checkpoints/
+**/poetry.lock
+*__init__.py
