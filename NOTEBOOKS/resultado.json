@@ -1,0 +1,18 @@
+{
+  "total": 450,
+  "promedio": 150.0,
+  "registros": [
+    {
+      "producto": "manzana",
+      "ventas": 100
+    },
+    {
+      "producto": "pera",
+      "ventas": 200
+    },
+    {
+      "producto": "uva",
+      "ventas": 150
+    }
+  ]
+}

@@ -27,7 +27,7 @@ async def users(
     age: Optional[int] = None,
 ):
     """
-    Obtiene usuarios filtrando por id, givenName, familyName y/o age usando query string.
+    Obtiene usuarios filtrando por id, givenName, familyName, query string.
     Ejemplo: /api/v1/users?givenName=Rupert&familyName=Muro
     """
     ruta = Path("usuarios.json")
@@ -39,8 +39,9 @@ async def users(
         contenido = await asyncio.to_thread(ruta.read_text, encoding="utf-8")
         usuarios = json.loads(contenido)
     except json.JSONDecodeError:
-        raise HTTPException(
-            status_code=400, detail="Error de formato en el archivo JSON"
+        raise HTTPException(  # noqa: B904
+            status_code=400,
+            detail="Error de formato en el archivo JSON",  # noqa: B904
         )
 
     # Filtrado
@@ -71,8 +72,9 @@ async def create_user(usuario: Usuario):
         contenido = await asyncio.to_thread(ruta.read_text, encoding="utf-8")
         usuarios = json.loads(contenido)
     except json.JSONDecodeError:
-        raise HTTPException(
-            status_code=400, detail="Error de formato en el archivo JSON"
+        raise HTTPException(  # noqa: B904
+            status_code=400,
+            detail="Error de formato en el archivo JSON",  # noqa: B904
         )
     # Generar id si no viene
     user_dict = usuario.dict()
